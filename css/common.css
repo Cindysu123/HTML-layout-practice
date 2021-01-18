@@ -1,0 +1,316 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-size: normal;
+}
+
+.fr .icomoon {
+    font-family: 'icomoon';
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style-blue {
+    color: rgb(113, 100, 230);
+}
+
+.spacer {
+    margin: 8px 6px 0;
+    z-index: 999;
+}
+
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+.header {
+    position: relative;
+    height: 105px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 175px;
+    height: 56px;
+}
+
+.logo a {
+    display: block;
+    overflow: hidden;
+    width: 175px;
+    height: 56px;
+    background: url(../img/Vector.png) no-repeat;
+    text-indent: -999px;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 248px;
+}
+
+.text {
+    float: left;
+    width: 445px;
+    height: 32px;
+    border: 2px solid rgb(113, 100, 230);
+    color: #ccc;
+    padding-left: 10px;
+}
+
+.btn {
+    float: left;
+    width: 82px;
+    height: 36px;
+    background-color: rgb(113, 100, 230);
+    border: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.hotwords {
+    position: absolute;
+    top: 65px;
+    left: 248px;
+}
+
+.hotwords a {
+    margin: 0 12px;
+    font-size: 10px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 138px;
+    height: 34px;
+    border: solid 1px rgb(177, 177, 177);
+    background-color: #f1f1f1;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.car {
+    font-family: 'icomoon';
+    color: rgb(113, 100, 230);
+}
+
+.arrow {
+    font-family: 'icomoon';
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 110px;
+    height: 14px;
+    background-color: rgb(113, 100, 230);
+    line-height: 14px;
+    padding: 0.5px 3px;
+    color: honeydew;
+    border-radius: 6px 6px 6px 0;
+}
+
+.nav {
+    height: 45px;
+    border-bottom: 1.5px solid rgb(76, 64, 143);
+}
+
+.dropdown {
+    width: 210px;
+    height: 45px;
+    background-color: rgb(76, 64, 143);
+}
+
+.dropdown .dt {
+    height: 100%;
+    background-color: rgb(76, 64, 143);
+    font-size: 16px;
+    color: honeydew;
+    text-align: center;
+    line-height: 45px;
+}
+
+.dropdown .dd {
+    height: 465px;
+    background-color: rgb(113, 100, 230);
+    margin-top: 1.5px;
+}
+
+.dropdown .dd li {
+    display: block;
+}
+
+.menu_item {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+}
+
+.menu_item:hover {
+    padding-left: 20px;
+}
+
+.menu_item:hover {
+    background-color: #fff;
+}
+
+.menu_item:hover a {
+    color: rgb(113, 100, 230);
+}
+
+.menu_item:hover i {
+    color: rgb(113, 100, 230);
+}
+
+.menu_item a {
+    font-size: 13px;
+    color: ivory;
+    padding-left: 2px;
+}
+
+.menu_item i {
+    font-family: 'icomoon';
+    color: ivory;
+    font-size: 12px;
+}
+
+.menu_arrow {
+    font-size: 14px;
+    padding: 0 4px;
+    float: right;
+}
+
+.navitems {
+    margin-left: 10px;
+}
+
+.navitems li a {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 25px;
+    font-size: 16px;
+}
+
+.footer {
+    height: 386px;
+    background-color: #f1f1f1;
+    padding-top: 30px;
+}
+
+.mod_service {
+    height: 75px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_service li {
+    float: left;
+    width: 240px;
+    height: 79px;
+}
+
+.mod_service_icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+}
+
+.mod_service_zheng {
+    background: url(../img/Group\ 1.png) no-repeat;
+}
+
+.mod_service_tit {
+    float: left;
+    margin-left: 5px;
+}
+
+.mod_service_tit h5 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.mod_service_tit p {
+    font-size: 14px;
+}
+
+.mod_service_kuai {
+    background: url(../img/Group\ 2.png) no-repeat;
+}
+
+.mod_service_bao {
+    background: url(../img/Group\ 3.png) no-repeat;
+}
+
+.mod_service_ai {
+    background: url(../img/Group\ 4.png) no-repeat;
+}
+
+.mod_service_duo {
+    background: url(../img/Group\ 5.png) no-repeat;
+}
+
+.mod_help {
+    height: 187px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_help_items {
+    float: left;
+    width: 150px;
+    padding: 20px 0 0 50px;
+}
+
+.mod_help_items dt {
+    height: 25px;
+    font-size: 18px;
+}
+
+.mod_help_items dd {
+    height: 22px;
+    font-size: 12px;
+}
+
+.mod_help_app dt,
+.mod_help_app p {
+    padding-left: 15px;
+}
+
+.mod_help_app img {
+    margin: 7px 0;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_copyright_links {
+    margin: 20px 0 15px 0;
+}
+
+.mod_copyright_info {
+    margin-top: 12px;
+    line-height: 18px;
+}

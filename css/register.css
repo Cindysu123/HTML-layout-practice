@@ -1,0 +1,166 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid rgb(113, 100, 230);
+}
+
+.header img {
+    padding-top: 15px;
+}
+
+.registerarea {
+    font-size: 18px;
+    margin-top: 20px;
+    height: 520px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    border: 1px solid #ccc;
+    height: 40px;
+    background-color: #ececec;
+    line-height: 40px;
+    padding: 0 10px;
+    font-weight: normal;
+}
+
+.registerarea h3 em {
+    font-size: 14px;
+    float: right;
+}
+
+.reg_form {
+    width: 600px;
+    height: 420px;
+    margin: 40px auto 0;
+}
+
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+    font-size: 13px;
+}
+
+.reg_form li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inp {
+    font-size: 20px;
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.error {
+    color: rgb(238, 68, 68);
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.error_ico {
+    display: inline-block;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(238, 68, 68);
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+
+.success {
+    color: rgb(82, 204, 82);
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.success_ico {
+    display: inline-block;
+    color: white;
+    background-color: rgb(82, 204, 82);
+    width: 20px;
+    height: 20px;
+    font-family: "icomoon";
+    border-radius: 50px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.safe {
+    font-size: 14px;
+    padding-left: 153px;
+    font: 12px;
+    color: rgb(197, 197, 197);
+}
+
+.safe em {
+    font-size: 14px;
+    padding: 0 12px
+}
+
+.ruo {
+    background-color: red;
+    color: white;
+}
+
+.zhong {
+    background-color: green;
+    color: white;
+}
+
+.qiang {
+    background-color: orange;
+    color: white;
+}
+
+.agree {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.agree a {
+    color: blue;
+}
+
+.over input {
+    width: 200px;
+    height: 34px;
+    background-color: rgb(209, 50, 50);
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin: 30px 0 0 130px;
+}
+
+.footer {
+    height: 120px;
+    text-align: center;
+}
+
+.inks {
+    height: 30px;
+    margin-top: 20px;
+}
+
+.copyright {
+    line-height: 20px;
+    height: 20px;
+}

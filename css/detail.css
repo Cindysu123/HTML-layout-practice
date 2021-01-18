@@ -1,0 +1,379 @@
+.de_container {
+    margin-top: 20px;
+}
+
+.crumb_wrap {
+    height: 25px;
+}
+
+.crumb_wrap a {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.preview_wrap {
+    width: 400px;
+    height: 590px;
+}
+
+.preview_img {
+    height: 398px;
+    border: 1px solid #ccc;
+}
+
+.preview_list {
+    position: relative;
+    margin-top: 60px;
+    height: 60px;
+}
+
+.list_item {
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.list_item li {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    border: 2px solid transparent;
+}
+
+.list_item .current {
+    border: 2px solid rgb(113, 100, 230);
+}
+
+.arrow_prev,
+.arrow_next {
+    position: absolute;
+    top: 15px;
+    width: 22px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.438);
+    font-family: 'icomoon';
+    color: white;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.arrow_prev {
+    left: 0;
+}
+
+.arrow_next {
+    right: 0;
+}
+
+.preview_action {
+    margin-top: 10px;
+}
+
+.preview_action li {
+    margin-right: 28px;
+    font-family: 'icomoon';
+    font-size: 12px;
+}
+
+.iteminfo_wrap {
+    width: 718px;
+}
+
+.sku_name {
+    height: 30px;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+}
+
+.sku_news {
+    height: 32px;
+    color: rgb(113, 100, 230);
+}
+
+.summary_price,
+.summary_promotion {
+    position: relative;
+    padding: 10px 0px;
+    background-color: rgb(191, 188, 224);
+}
+
+.summary dl {
+    overflow: hidden;
+}
+
+.summary dd,
+.summary dt {
+    float: left;
+}
+
+.summary dt {
+    padding-left: 10px;
+    width: 60px;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+.price {
+    font-size: 24px;
+    color: rgb(113, 100, 230);
+}
+
+.summary_price a {
+    color: rgb(113, 100, 230);
+}
+
+.remark {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.summary_promotion {
+    padding-top: 0;
+}
+
+.summary_promotion dd {
+    width: 450px;
+    line-height: 36px;
+}
+
+.summary_promotion em {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    background-color: rgb(113, 100, 230);
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.summary_support {
+    line-height: 36px;
+}
+
+.summary_peisong {
+    line-height: 36px;
+}
+
+.summary_choose_color a {
+    font-size: 14px;
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 41px;
+}
+
+.summary .current {
+    border: 1px solid rgb(113, 100, 230);
+}
+
+.choose_verson {
+    margin: 10px 0;
+}
+
+.choose_verson a,
+.choose_type a,
+.choose_taozhuang a {
+    display: inline-block;
+    height: 32px;
+    padding: 0 12px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.choose_taozhuang {
+    margin: 10px 0;
+}
+
+.choose_amount {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-color: pink;
+}
+
+.addcar {
+    float: left;
+    width: 142px;
+    height: 46px;
+    background-color: rgb(113, 100, 230);
+    font-size: 18px;
+    color: white;
+    line-height: 46px;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.choose_btns {
+    margin-top: 20px;
+}
+
+.choose_amount input {
+    width: 33px;
+    height: 44px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.choose_amount .add,
+.minus {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 22px;
+}
+
+.add {
+    top: 0;
+    right: 0;
+}
+
+.choose_amount .minus {
+    bottom: 0;
+    right: 0;
+    cursor: not-allowed;
+}
+
+.product_detail .aside {
+    width: 208px;
+    border: 1px solid #ccc;
+}
+
+.product_detail .detail {
+    width: 978px;
+}
+
+.tab_list {
+    height: 33px;
+}
+
+.tab_list .current {
+    background-color: #fff;
+    border-bottom: 0;
+    color: rgb(113, 100, 230);
+}
+
+.tab_list li {
+    float: left;
+    background-color: #f1f1ff;
+    border-bottom: 1px solid #ccc;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 12px;
+}
+
+.first_tab {
+    width: 104px;
+}
+
+.second_tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+
+.tab_content {
+    padding: 0 10px;
+}
+
+.tab_content_list .tab_content_list_list {
+    margin-top: 10px;
+    font-size: 16px;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.tab_content li {
+    display: block;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab_content li h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+}
+
+.aside-price {
+    font-weight: bold;
+    margin-top: 10px 0;
+}
+
+.aside-addcar {
+    font-size: 14px;
+    display: block;
+    width: 88px;
+    height: 26px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 26px;
+}
+
+.detail_tab_list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.detail_tab_list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.detail_tab_list .current {
+    background-color: rgb(113, 100, 230);
+    color: white;
+}
+
+.item li {
+    display: block;
+}
+
+.item_info {
+    padding: 20px 0 0 20px;
+}
+
+.item_info li {
+    line-height: 22px;
+}
+
+.more {
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'icomoon';
+}
+
+.item img {
+    margin-bottom: 20px;
+}
+
+.product_detail {
+    margin-bottom: 50px;
+}

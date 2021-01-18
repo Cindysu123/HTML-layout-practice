@@ -1,0 +1,357 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-top: 10px;
+    margin-left: 219px;
+}
+
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 900%;
+    z-index: -999;
+}
+
+.focus ul li {
+    float: left;
+    /* display: inline-block; */
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.37);
+    text-align: center;
+    line-height: 40px;
+    font-family: 'icomoon';
+    color: seashell;
+    transition: all 0.5s;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 285px;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin: 0 6px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.685);
+    cursor: pointer;
+}
+
+.current {
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 15px 1.5px blanchedalmond;
+}
+
+.news {
+    height: 163px;
+    border: solid 1px #ccc;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+
+.news-hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.news-hd a {
+    float: right;
+    padding: 0 15px;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+
+.news-bd ul li {
+    height: 24px;
+    font-size: 12px;
+    display: block;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.lifeservice li p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.service_ico {
+    display: block;
+    margin: 10px auto;
+    width: 24px;
+    height: 24px;
+    background: url(../img/A4\ -\ 1.png) no-repeat;
+}
+
+.service_ico_huafei {
+    background-position: 0px 0px;
+}
+
+.service_ico_yingyong {
+    background-position: -31px 0px;
+}
+
+.service_ico_manyi {
+    background-position: -63px 0px;
+}
+
+.service_ico_zhusu {
+    background-position: -94px 0px;
+}
+
+.service_ico_toupiao {
+    background-position: 0px -29px;
+}
+
+.service_ico_tupian {
+    background-position: -30px -29px;
+}
+
+.service_ico_bangong {
+    background-position: -62px -29px;
+}
+
+.service_ico_shezhi {
+    background-position: -94px -29px;
+}
+
+.service_ico_tongji {
+    background-position: 0px -60px;
+}
+
+.service_ico_cookie {
+    background-position: -31px -58px;
+}
+
+.service_ico_dingshi {
+    background-position: -64px -58px;
+}
+
+.service_ico_yejian {
+    background-position: -94px -58px;
+}
+
+.hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/Group\ 13.png) no-repeat;
+}
+
+.recommend {
+    margin-top: 10px;
+    height: 163px;
+    background-color: white1;
+}
+
+.recom-hd {
+    width: 200px;
+    height: 163px;
+    background-color: rgb(99, 99, 99);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.recom-hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recom-hd h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.recom-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: white;
+}
+
+.recom-bd li {
+    float: left;
+    margin-top: 10px;
+    width: 249px;
+    border-right: 1px solid #ccc;
+    height: 145px;
+}
+
+.recom-bd .last {
+    border-right: 0;
+}
+
+
+/* floor */
+
+.box-hd {
+    margin-top: 25px;
+    height: 30px;
+    border-bottom: 2px solid rgb(113, 100, 230);
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: rgb(113, 100, 230);
+}
+
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab-list li {
+    float: left;
+}
+
+.tab-list li a {
+    margin: 0 15px;
+}
+
+.box-bd {
+    height: 360px;
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-list li {
+    width: 86px;
+    height: 32.7px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.box-bd img li {
+    overflow: hidden;
+}
+
+.box-bd img {
+    transition: all 0.2s;
+}
+
+.box-bd img:hover {
+    margin-left: 8px;
+}
+
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+}
+
+.fixedtool li {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: rgb(113, 100, 230);
+    color: white;
+}
